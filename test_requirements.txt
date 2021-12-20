@@ -10,4 +10,4 @@ pickle5; python_version == '3.7' and platform_python_implementation != 'PyPy'
 cffi
 # For testing types. Notes on the restrictions:
 # - Mypy relies on C API features not present in PyPy
-mypy==0.910; platform_python_implementation != "PyPy"
+mypy==0.920; platform_python_implementation != "PyPy"
